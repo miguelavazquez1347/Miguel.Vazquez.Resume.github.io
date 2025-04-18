@@ -1,87 +1,79 @@
-/* Color Palette */
-:root {
-  --blueberry: #6B7A8F;
-  --apricot: #F7882F;
-  --citrus: #F7C331;
-  --apple-core: #DCC7AA;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: var(--blueberry);
-  background-color: #fff;
-  line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1E2A38; /* Deep dark blue variant */
+    color: #F7F7F7;
 }
 
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
+/* Header / Navigation */
 header {
-  border-bottom: 2px solid var(--apple-core);
+    background-color: #6B7A8F; /* Blueberry */
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #F7882F; /* Apricot accent */
 }
 
-.logo {
-  font-size: 2rem;
-  color: var(--apricot);
+header h1 {
+    margin: 0;
+    color: #F7882F;
+    font-size: 1.8rem;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
+/* Navigation Links */
 nav a {
-  text-decoration: none;
-  color: var(--blueberry);
-  font-weight: bold;
+    color: #F7F7F7;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: 500;
 }
 
-main section {
-  margin-top: 3rem;
+nav a:hover {
+    color: #F7882F;
+}
+
+/* Main Content */
+main {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 h2 {
-  color: var(--apricot);
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--apple-core);
-  padding-bottom: 0.5rem;
+    color: #F7882F;
+    font-size: 1.6rem;
 }
 
+p {
+    line-height: 1.6;
+    color: #DCC7AA; /* Apple Core */
+}
+
+/* Buttons and Links */
+a.button, button {
+    background-color: #F7882F;
+    color: #1E2A38;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+a.button:hover, button:hover {
+    background-color: #F7C331; /* Citrus hover */
+}
+
+/* Footer */
 footer {
-  background-color: var(--citrus);
-  color: #000;
-  text-align: center;
-  padding: 1rem 0;
-  margin-top: 4rem;
-  font-size: 0.9rem;
-}
-#hero {
-  text-align: center;
-  padding: 5rem 2rem 3rem;
-  background-color: #fff;
-  border-bottom: 2px solid var(--apple-core);
-}
-
-#hero h1 {
-  font-size: 2.5rem;
-  color: var(--apricot);
-  margin-bottom: 1rem;
-}
-
-#hero p {
-  font-size: 1.2rem;
-  color: var(--blueberry);
-  margin-bottom: 0.5rem;
+    text-align: center;
+    padding: 1.5rem;
+    color: #DCC7AA;
+    font-size: 0.9rem;
+    margin-top: 2rem;
 }
