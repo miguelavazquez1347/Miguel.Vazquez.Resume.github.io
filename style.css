@@ -1,0 +1,69 @@
+/* Color Palette */
+:root {
+  --blueberry: #6B7A8F;
+  --apricot: #F7882F;
+  --citrus: #F7C331;
+  --apple-core: #DCC7AA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--blueberry);
+  background-color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  border-bottom: 2px solid var(--apple-core);
+}
+
+.logo {
+  font-size: 2rem;
+  color: var(--apricot);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--blueberry);
+  font-weight: bold;
+}
+
+main section {
+  margin-top: 3rem;
+}
+
+h2 {
+  color: var(--apricot);
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--apple-core);
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  background-color: var(--citrus);
+  color: #000;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+}
