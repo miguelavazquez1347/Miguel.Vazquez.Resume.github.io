@@ -5,7 +5,14 @@ body {
     background-color: #1E2A38; /* Deep dark blue variant */
     color: #F7F7F7;
 }
-
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #F7882F; /* Apricot border */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
 /* Header / Navigation */
 header {
     background-color: #6B7A8F; /* Blueberry */
