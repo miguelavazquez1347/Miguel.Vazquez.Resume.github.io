@@ -71,9 +71,12 @@ a.button:hover, button:hover {
 
 /* Footer */
 footer {
+    background-color: #6B7A8F; /* Match nav bar */
     text-align: center;
     padding: 1.5rem;
-    color: #DCC7AA;
+    color: #F7F7F7;
     font-size: 0.9rem;
     margin-top: 2rem;
+    border-top: 2px solid #F7882F; /*Apricot accent like the header */
 }
+
